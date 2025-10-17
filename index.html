@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20/10 Greeting</title>
+  <link rel="stylesheet" href="style.css"> <!-- Compiled from style.scss -->
+</head>
+<body>
+  <!-- Overlay with blur and initial button -->
+  <div class="overlay" id="overlay">
+    <button class="enter-btn" onclick="showMainPage()">Enter</button>
+  </div>
+
+  <!-- Main page content (initially blurred) -->
+  <div class="main-content" id="mainContent">
+    <h1>Welcome to the Main Page</h1>
+    <p>This is the main content of the page.</p>
+    <button onclick="showFlowerPage()">Go to Flower Page</button>
+  </div>
+
+  <!-- Flower-themed page (hidden initially) -->
+  <div class="flower-page" id="flowerPage">
+    <div class="flower-content">
+      <h1>Chúc 20/10 Ngọt Ngào</h1>
+      <button class="thank-you-btn">Cảm Ơn</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
