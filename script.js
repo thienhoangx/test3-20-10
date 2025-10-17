@@ -17,3 +17,7 @@ function showFlowerPage() {
   mainContent.style.display = 'none';
   flowerPage.style.display = 'flex';
 }
+
+function sayThankYou() {
+  alert('Thank you for celebrating 20/10 with us!');
+}
